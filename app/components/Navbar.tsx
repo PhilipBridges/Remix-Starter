@@ -16,7 +16,9 @@ function classNames(...classes: string[]) {
 
 export default function Navbar({ props }: UserProps) {
   const { user } = props;
-  const [current, setCurrent] = useState<string>("");
+
+  // Use below function for nav buttons
+  // const [current, setCurrent] = useState<string>("");  
 
   return (
     <Disclosure as="nav" className="bg-gray-800">
